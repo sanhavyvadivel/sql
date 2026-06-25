@@ -56,7 +56,8 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Slowly Changing Dimensions (SCD) type 2 retains the changes while SCD type 1 overweites existing data. Type 1 is useful when correcting any errors while type 2 is useful when looking at trends in the data.
+
 ```
 
 ***
